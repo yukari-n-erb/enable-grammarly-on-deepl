@@ -1,0 +1,12 @@
+{
+    "name": "enable-grammarly-on-deepl",
+    "description": "enable-grammarly-on-deepl",
+    "version": "0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+      {
+        "matches": ["https://www.deepl.com/*"],
+        "js": ["enable-grammarly-on-deepl.js"]
+      }
+    ]
+  }
