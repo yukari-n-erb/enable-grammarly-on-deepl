@@ -1,12 +1,17 @@
 {
     "name": "enable-grammarly-on-deepl",
     "description": "enable-grammarly-on-deepl",
-    "version": "0.1",
+    "version": "1.0.0",
     "manifest_version": 3,
+    "icons": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    },
     "content_scripts": [
-      {
-        "matches": ["https://www.deepl.com/*"],
-        "js": ["enable-grammarly-on-deepl.js"]
-      }
+        {
+            "matches": ["https://www.deepl.com/*"],
+            "js": ["js/enable-grammarly-on-deepl.js"]
+        }
     ]
-  }
+}
